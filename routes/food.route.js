@@ -1,4 +1,5 @@
 import express from "express";
+import { addFood, removeFood, listFood } from "../controllers/food.controller";
 
 const foodRouter = express.Router();
 
